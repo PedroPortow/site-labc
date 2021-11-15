@@ -1,0 +1,324 @@
+*{
+    margin: 0px 0;
+    padding: 0px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+    margin: 10px 35px;
+    margin-bottom: 4px;
+}
+.nomeloja{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.nomeloja:hover{
+    color: rgb(255, 177, 74);
+    transition: 200ms ease-in-out;
+}
+header{
+   padding-bottom:5px;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   background-color: white;
+   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.356);
+}
+.barra{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1%;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: rgb(255, 177, 74);
+    transition: 200ms ease-in-out;
+}
+.bannerUnderHeader{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Imgs/Vinil/Screenshot_66.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*border: 10px solid red;*/
+    height: 500px;
+    padding-right:0px;
+    padding-left:0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.123);
+    border-bottom: 2px solid rgb(255, 177, 74);
+    border-top: 2px solid rgb(255, 177, 74);
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.158);
+   /*border: 10px solid red;*/
+    height:500px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.123);
+    display: flex;
+    justify-content:center;
+    width: 100%;
+   /* border: 3px solid green; */
+}
+section h1{
+    text-transform: uppercase;
+    display: inherit;
+    line-height: 450px;
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 60px;
+    text-shadow: -1px 1px #929292, -2px 2px #929292, -3px 3px #929292,
+    -4px 4px #929292, -5px 5px #929292,  -12px 14px 20px rgba(0, 0, 0, 0.486);
+}
+
+section h1:hover{
+   
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 450px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 60px;
+    transition: 300ms ease-in-out;
+    border-bottom: 2px solid rgb(255, 177, 74);
+    border-top: 2px solid rgb(255, 177, 74);
+    color: rgb(255, 214, 29);
+    text-shadow: -1px 1px rgb(151, 104, 43), -2px 2px rgb(151, 104, 43), -3px 3px rgb(151, 104, 43),
+    -4px 4px rgb(151, 104, 43), -5px 5px rgb(151, 104, 43),  -12px 14px 20px rgba(119, 97, 35, 0.356);
+}
+.leftbox{
+  /* border: 2px solid red; */
+    width: 12%;
+    height: 800px;
+    background-color: white;
+    float: left;
+}
+.rightbox{
+    /*  border: 2px solid rgb(0, 17, 255);*/
+      width: 12%;
+      height: 800px;
+      background-color: white;
+      float: right;
+  }
+content{
+    float: left;
+    /*border: 2px solid rgb(255, 0, 242);*/
+    width: 76%;
+    height: 1300px;
+    background-color: whitesmoke;
+   /* background-color: rgb(255, 255, 255);*/
+   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.308);
+   text-align: center;
+}
+.Contentt{
+   /* border: 2px solid rgb(232, 248, 0); */   
+    background-color: whitesmoke;
+    height: 675px;
+}
+.textotop{
+    margin-top: 110px;
+   /* border: 3px solid green;*/
+    font-size: 35px;
+    display: block;
+    margin: auto;
+    padding-top: 110px;
+}
+.maisvendidos{
+   /* border: 3px solid rgb(4, 0, 255);*/
+    height: 350px;
+    font-size: 35px;
+    display: block;
+    margin: auto;
+    padding-top: 110px;
+}
+main{
+    width:100%;
+   /* border: 2px solid rgb(27, 145, 255);*/
+}
+.sgtp{
+    width: 400px;
+    margin-top: 90px;
+    float: left; 
+    margin: auto;
+    padding-top: 55.7px;
+    margin-left: 60px;
+    margin-right: 70px;
+}
+.tpab{
+    display:block;
+  margin-left:auto;
+  margin-right:auto;
+    width: 400px;
+    margin-top: 55.7px;
+    float: left; 
+    padding-top: 0px;
+}
+.rdd{
+    width: 400px;
+    margin-top: 90px;
+    float: left; 
+    margin: auto;
+    padding-top: 55.7px;
+    margin-left: 100px;
+}
+.nomesAlbuns{
+    display: flex;
+    font-size: 16px;
+    flex: 1%;
+    margin-top: 12px;
+    float: left; 
+    margin: auto;
+}
+.nomesAlbuns{
+    flex: 1%;
+    text-align: right;
+}
+.beatlesNome{
+    font-size: 16px;
+    margin-left: 115px;
+    margin-right: 295px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.tpabName{
+    margin-right: 245px;
+}
+.precoss{
+    display: block;
+    height: 60px;
+    margin-top: 25px;
+    text-align: center;
+}
+.precoTheB{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(255, 214, 29);
+    margin-top: 0px;
+    margin-left: 115px;
+    margin-right: 440px;
+    float: left;
+}
+.precoTPAB{
+    font-size: 16px;
+    float: left;
+    text-decoration: none;
+    color: rgb(255, 214, 29);
+    margin-top: 0px;
+    margin-right: 225px;
+}
+.precoRDD{
+    font-size: 16px;
+    float: left;
+    text-decoration: none;
+    color: rgb(255, 214, 29);
+    margin-top: 0px;
+}
+.saibaMais{
+    padding-top: 70px;
+    /*border: 2px solid red;*/
+    height: 455px;
+    font-size: 25px;
+}
+.video{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.185);
+}
+.videobox{
+    margin-top: 50px;
+}
+footer{
+    background-color: rgb(43, 43, 43);
+    height: 325px;
+    width:100%;
+    float:left;
+}
+#boxFooter{
+    align-items: center;
+    margin: 0 auto;
+}
+#textoFooter{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+    color: rgb(184, 184, 184);
+}
+.mainsobre{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Imgs/Vinil/vinyl_record_vinyl_music-HD_Widescreen_Wallpaper_1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*border: 10px solid red;*/
+    height: 500px;
+    padding-right:0px;
+    padding-left:0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.123);
+    
+}
+.boxsobre{
+    outline: 2px solid red;
+    width: 80%;
+    position: flex;
+}
+.conteudosobre{
+   /* outline: 2px solid red;*/
+    height: 500px;
+    width:100%;
+    background-color: white;
+    padding: 100px 0px 0px 20px;  
+    text-align: center; 
+    font-size: 40px;    
+    margin: 0 auto;        
+
+}
+table {
+    border-collapse: collapse;
+    width: 5%;
+    height: 2px;
+    margin: 0 auto;
+    font-size: 40px;
+    margin: 0 auto;   
+  }
+  
+  td, th {
+    border: 1px solid #0000005b;
+    text-align: left;
+    padding: 10px;
+    margin: 0 auto;   
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+.textosobre{
+    text-align: center;
+  /*  outline: 2px solid red;*/
+    margin-bottom: 40px;
+}
+.boxtable{
+    align-items: center;
+   /* outline: 2px solid red;*/
+    position:static;
+}
